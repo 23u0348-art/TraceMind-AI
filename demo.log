@@ -1,0 +1,13 @@
+
+[2026-10-10 09:00:01] INFO: Regression simulation started
+[2026-10-10 09:00:03] INFO: Loading test configuration
+[2026-10-10 09:00:05] WARNING: Clock initialization took longer than expected
+[2026-10-10 09:00:07] INFO: Starting test: reset_test
+[2026-10-10 09:00:08] INFO: reset_test PASSED
+[2026-10-10 09:00:10] ERROR: Assertion failed in test: packet_tx_test
+[2026-10-10 09:00:11] ERROR: Expected packet length 128, received 120
+[2026-10-10 09:00:12] INFO: Starting test: link_training_test
+[2026-10-10 09:00:14] FATAL: Link training timeout
+[2026-10-10 09:00:15] WARNING: Retry limit nearly reached
+[2026-10-10 09:00:16] ERROR: packet_tx_test FAILED
+[2026-10-10 09:00:18] INFO: Regression simulation ended
