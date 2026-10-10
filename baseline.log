@@ -1,0 +1,10 @@
+
+[2026-10-09 09:00:01] INFO: Regression simulation started
+[2026-10-09 09:00:02] INFO: Loading PCIe controller configuration
+[2026-10-09 09:00:03] INFO: Clock initialization completed
+[2026-10-09 09:00:04] INFO: Starting test: reset_test
+[2026-10-09 09:00:05] INFO: reset_test PASSED
+[2026-10-09 09:00:06] INFO: Starting test: packet_tx_test
+[2026-10-09 09:00:07] ERROR: Assertion failed in packet_tx_test
+[2026-10-09 09:00:08] ERROR: Expected packet length 128, received 120
+[2026-10-09 09:00:09] INFO: Regression simulation ended
